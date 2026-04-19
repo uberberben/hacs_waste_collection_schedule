@@ -15155,6 +15155,12 @@
       "id": "warszawa19115_pl"
     },
     {
+      "title": "Wieliczka",
+      "module": "wieliczka_kiedyodpady_pl",
+      "default_params": {},
+      "id": "wieliczka_kiedyodpady_pl"
+    },
+    {
       "title": "Wroc\u0142aw",
       "module": "ekosystem_wroc_pl",
       "default_params": {},
