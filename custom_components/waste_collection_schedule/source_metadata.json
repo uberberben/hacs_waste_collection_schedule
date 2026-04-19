@@ -3094,6 +3094,11 @@
     "howto": {},
     "urls": {}
   },
+  "wieliczka_kiedyodpady_pl": {
+    "docs_url": "https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/wieliczka_kiedyodpady_pl.md",
+    "howto": {},
+    "urls": {}
+  },
   "zys_harmonogram_pl": {
     "docs_url": "https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/zys_harmonogram_pl.md",
     "howto": {},
