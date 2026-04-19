@@ -11,8 +11,8 @@ COUNTRY = "pl"
 
 TEST_CASES = {
     "Wieliczka, Asnyka, pozostale": {
-        "locality_id": "0952232",
-        "street_id": "15775",
+        "locality": "Wieliczka",
+        "street": "Asnyka",
         "number": "pozostałe",
     }
 }
@@ -36,26 +36,16 @@ ICON_MAP = {
 PARAM_TRANSLATIONS = {
     "en": {
         "locality": "Locality Name",
-        "locality_id": "Locality ID",
         "street": "Street Name",
-        "street_id": "Street ID",
         "number": "House Number",
-        "property_type": "Property Type",
-        "building_type": "Building Type",
-        "days": "Days To Fetch",
     }
 }
 
 PARAM_DESCRIPTIONS = {
     "en": {
         "locality": "Locality name from the Kiedy Odpady locality list.",
-        "locality_id": "Locality ID (use instead of locality name).",
         "street": "Street name from the selected locality.",
-        "street_id": "Street ID (use instead of street name).",
         "number": "House number/address value from the selected street.",
-        "property_type": "Optional property type as expected by API.",
-        "building_type": "Optional building type as expected by API.",
-        "days": "Number of days to request from today (default: 35).",
     }
 }
 
@@ -75,28 +65,13 @@ def _pick_icon(name: str) -> str | None:
 class Source:
     def __init__(
         self,
+        locality: str,
+        street: str,
         number: str,
-        locality: str | None = None,
-        locality_id: str | None = None,
-        street: str | None = None,
-        street_id: str | None = None,
-        property_type: str = "",
-        building_type: str = "",
-        days: int = DEFAULT_DAYS,
     ):
-        if not locality and not locality_id:
-            raise ValueError("Either locality or locality_id must be provided.")
-        if not street and not street_id:
-            raise ValueError("Either street or street_id must be provided.")
-
         self._locality = locality
-        self._locality_id = locality_id
         self._street = street
-        self._street_id = street_id
         self._number = str(number).strip()
-        self._property_type = property_type
-        self._building_type = building_type
-        self._days = days
 
         self._session = requests.Session()
         self._session.headers.update(
@@ -113,11 +88,7 @@ class Source:
         return response.json()
 
     def _resolve_locality_id(self) -> str:
-        if self._locality_id:
-            return self._locality_id
-
         localities = self._get_localities()
-        assert self._locality is not None
         target = _normalize(self._locality)
 
         for locality in localities:
@@ -148,11 +119,7 @@ class Source:
         return response.json()
 
     def _resolve_street_id(self, locality_id: str) -> str:
-        if self._street_id:
-            return self._street_id
-
         streets = self._get_streets(locality_id)
-        assert self._street is not None
         target = _normalize(self._street)
 
         for street in streets:
@@ -197,7 +164,7 @@ class Source:
         waste_type_map = self._get_waste_types()
 
         today = date.today()
-        date_to = today + timedelta(days=self._days)
+        date_to = today + timedelta(days=DEFAULT_DAYS)
         payload = {
             "from": today.isoformat(),
             "to": date_to.isoformat(),
@@ -206,8 +173,8 @@ class Source:
                     "localityId": locality_id,
                     "streetId": street_id,
                     "number": self._number,
-                    "propertyType": self._property_type,
-                    "buildingType": self._building_type,
+                    "propertyType": "",
+                    "buildingType": "",
                 }
             ],
         }

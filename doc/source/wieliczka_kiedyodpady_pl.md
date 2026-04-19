@@ -20,25 +20,10 @@ waste_collection_schedule:
 *(String) (required)* House number/address entry from the selected street.
 
 **locality**  
-*(String) (required if locality_id not provided)* Locality name.
-
-**locality_id**  
-*(String) (required if locality not provided)* Locality ID.
+*(String) (required)* Locality name.
 
 **street**  
-*(String) (required if street_id not provided)* Street name.
-
-**street_id**  
-*(String) (required if street not provided)* Street ID.
-
-**property_type**  
-*(String) (optional)* Extra API field, defaults to empty string.
-
-**building_type**  
-*(String) (optional)* Extra API field, defaults to empty string.
-
-**days**  
-*(Integer) (optional)* Number of days to fetch from today. Default is `35`.
+*(String) (required)* Street name.
 
 ## Example
 
@@ -47,8 +32,8 @@ waste_collection_schedule:
   sources:
     - name: wieliczka_kiedyodpady_pl
       args:
-        locality_id: "0952232"
-        street_id: "15775"
+        locality: "Wieliczka"
+        street: "Asnyka"
         number: "pozostałe"
 ```
 
