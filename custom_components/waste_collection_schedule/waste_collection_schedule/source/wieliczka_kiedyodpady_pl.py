@@ -11,8 +11,8 @@ COUNTRY = "pl"
 
 TEST_CASES = {
     "Wieliczka, Asnyka, pozostale": {
-        "city": "Wieliczka",
-        "street": "Asnyka",
+        "city": "Wieliczka (miasto)",
+        "street": "ul. Adama Asnyka",
         "number": "pozostałe",
     }
 }
@@ -42,7 +42,7 @@ PARAM_TRANSLATIONS = {
 }
 
 HOW_TO_GET_ARGUMENTS_DESCRIPTION = {
-    "en": "Open https://wieliczka.kiedyodpady.pl and select your location. Use the city name, street name, and house number exactly as shown.",
+    "en": "Open https://wieliczka.kiedyodpady.pl and select your location. Use the city name, street name, and house number exactly as shown in the UI.",
 }
 
 PARAM_DESCRIPTIONS = {
@@ -96,17 +96,14 @@ class Source:
         target = _normalize(self._city)
 
         for locality in localities:
-            candidates = [
-                locality.get("name", ""),
-                locality.get("extendedName", ""),
-            ]
-            if any(_normalize(candidate) == target for candidate in candidates if candidate):
+            extended_name = locality.get("extendedName", "")
+            if extended_name and _normalize(extended_name) == target:
                 return locality["id"]
 
         suggestions = [
-            locality.get("extendedName") or locality.get("name")
+            locality.get("extendedName")
             for locality in localities
-            if locality.get("name")
+            if locality.get("extendedName")
         ]
         raise SourceArgumentNotFoundWithSuggestions(
             "city",
@@ -127,14 +124,14 @@ class Source:
         target = _normalize(self._street)
 
         for street in streets:
-            candidates = [street.get("name", ""), street.get("extendedName", "")]
-            if any(_normalize(candidate) == target for candidate in candidates if candidate):
+            extended_name = street.get("extendedName", "")
+            if extended_name and _normalize(extended_name) == target:
                 return street["id"]
 
         suggestions = [
-            street.get("extendedName") or street.get("name")
+            street.get("extendedName")
             for street in streets
-            if street.get("name")
+            if street.get("extendedName")
         ]
         raise SourceArgumentNotFoundWithSuggestions(
             "street",

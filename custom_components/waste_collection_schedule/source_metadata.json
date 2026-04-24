@@ -3097,11 +3097,9 @@
   "wieliczka_kiedyodpady_pl": {
     "docs_url": "https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/wieliczka_kiedyodpady_pl.md",
     "howto": {
-      "en": "Open {url_0} and select your location. Use the city name, street name, and house number exactly as shown."
+      "en": "Open https://wieliczka.kiedyodpady.pl and select your location. Use the city name, street name, and house number exactly as shown in the UI."
     },
-    "urls": {
-      "url_0": "https://wieliczka.kiedyodpady.pl"
-    }
+    "urls": {}
   },
   "zys_harmonogram_pl": {
     "docs_url": "https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/zys_harmonogram_pl.md",
