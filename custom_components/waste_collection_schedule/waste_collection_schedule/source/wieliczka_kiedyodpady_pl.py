@@ -11,7 +11,7 @@ COUNTRY = "pl"
 
 TEST_CASES = {
     "Wieliczka, Asnyka, pozostale": {
-        "locality": "Wieliczka",
+        "city": "Wieliczka",
         "street": "Asnyka",
         "number": "pozostałe",
     }
@@ -35,16 +35,20 @@ ICON_MAP = {
 
 PARAM_TRANSLATIONS = {
     "en": {
-        "locality": "Locality Name",
+        "city": "City Name",
         "street": "Street Name",
         "number": "House Number",
     }
 }
 
+HOW_TO_GET_ARGUMENTS_DESCRIPTION = {
+    "en": "Open https://wieliczka.kiedyodpady.pl and select your location. Use the city name, street name, and house number exactly as shown.",
+}
+
 PARAM_DESCRIPTIONS = {
     "en": {
-        "locality": "Locality name from the Kiedy Odpady locality list.",
-        "street": "Street name from the selected locality.",
+        "city": "City name from the Kiedy Odpady locality list.",
+        "street": "Street name from the selected city.",
         "number": "House number/address value from the selected street.",
     }
 }
@@ -65,11 +69,11 @@ def _pick_icon(name: str) -> str | None:
 class Source:
     def __init__(
         self,
-        locality: str,
+        city: str,
         street: str,
         number: str,
     ):
-        self._locality = locality
+        self._city = city
         self._street = street
         self._number = str(number).strip()
 
@@ -87,9 +91,9 @@ class Source:
         response.raise_for_status()
         return response.json()
 
-    def _resolve_locality_id(self) -> str:
+    def _resolve_city_id(self) -> str:
         localities = self._get_localities()
-        target = _normalize(self._locality)
+        target = _normalize(self._city)
 
         for locality in localities:
             candidates = [
@@ -105,8 +109,8 @@ class Source:
             if locality.get("name")
         ]
         raise SourceArgumentNotFoundWithSuggestions(
-            "locality",
-            self._locality,
+            "city",
+            self._city,
             suggestions=suggestions,
         )
 
@@ -158,7 +162,7 @@ class Source:
         return {item["id"]: item["name"] for item in response.json() if "id" in item}
 
     def fetch(self) -> list[Collection]:
-        locality_id = self._resolve_locality_id()
+        locality_id = self._resolve_city_id()
         street_id = self._resolve_street_id(locality_id)
         self._validate_number(locality_id, street_id)
         waste_type_map = self._get_waste_types()

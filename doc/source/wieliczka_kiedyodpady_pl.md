@@ -9,7 +9,7 @@ waste_collection_schedule:
   sources:
     - name: wieliczka_kiedyodpady_pl
       args:
-        locality: Wieliczka
+        city: Wieliczka
         street: Asnyka
         number: pozostałe
 ```
@@ -19,8 +19,8 @@ waste_collection_schedule:
 **number**  
 *(String) (required)* House number/address entry from the selected street.
 
-**locality**  
-*(String) (required)* Locality name.
+**city**  
+*(String) (required)* City name.
 
 **street**  
 *(String) (required)* Street name.
@@ -32,16 +32,16 @@ waste_collection_schedule:
   sources:
     - name: wieliczka_kiedyodpady_pl
       args:
-        locality: "Wieliczka"
+        city: "Wieliczka"
         street: "Asnyka"
         number: "pozostałe"
 ```
 
 ## How to get the source argument
 
-1. Fetch localities from:
+1. Fetch cities from:
    `https://api.kiedyodpady.pl/public/territory/localities`
-2. Fetch streets for a locality:
+2. Fetch streets for a city:
    `https://api.kiedyodpady.pl/public/territory/localities/<locality_id>/streets`
 3. Fetch house numbers for a street:
    `https://api.kiedyodpady.pl/public/territory/localities/<locality_id>/addresses/<street_id>`
