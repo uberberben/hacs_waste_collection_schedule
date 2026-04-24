@@ -10,7 +10,7 @@ URL = "https://wieliczka.kiedyodpady.pl"
 COUNTRY = "pl"
 
 TEST_CASES = {
-    "Wieliczka, Asnyka, pozostale": {
+    "Wieliczka (miasto), ul. Adama Asnyka, pozostałe": {
         "city": "Wieliczka (miasto)",
         "street": "ul. Adama Asnyka",
         "number": "pozostałe",
