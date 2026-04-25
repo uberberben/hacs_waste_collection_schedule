@@ -15329,6 +15329,37 @@
         },
         "data_description": {}
       },
+      "args_wieliczka_kiedyodpady_pl": {
+        "title": "Configure Source",
+        "description": "Configure your service provider. {howto}More details: {docs_url}.",
+        "data": {
+          "calendar_title": "Calendar Title",
+          "city": "City Name",
+          "number": "House Number",
+          "street": "Street Name"
+        },
+        "data_description": {
+          "calendar_title": "A more readable, or user-friendly, name for the waste calendar. If nothing is provided, the name returned by the source will be used.",
+          "city": "City name from the Kiedy Odpady locality list.",
+          "number": "House number/address value from the selected street.",
+          "street": "Street name from the selected city."
+        }
+      },
+      "reconfigure_wieliczka_kiedyodpady_pl": {
+        "title": "Reconfigure Source",
+        "description": "Configure your service provider. {howto}More details: {docs_url}.",
+        "data": {
+          "calendar_title": "Calendar Title",
+          "city": "City Name",
+          "number": "House Number",
+          "street": "Street Name"
+        },
+        "data_description": {
+          "city": "City name from the Kiedy Odpady locality list.",
+          "number": "House number/address value from the selected street.",
+          "street": "Street name from the selected city."
+        }
+      },
       "args_ekosystem_wroc_pl": {
         "title": "Configure Source",
         "description": "Configure your service provider. {howto}More details: {docs_url}.",

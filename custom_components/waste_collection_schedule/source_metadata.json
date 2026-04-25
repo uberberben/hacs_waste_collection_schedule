@@ -3121,13 +3121,6 @@
     "howto": {},
     "urls": {}
   },
-  "wieliczka_kiedyodpady_pl": {
-    "docs_url": "https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/wieliczka_kiedyodpady_pl.md",
-    "howto": {
-      "en": "Open https://wieliczka.kiedyodpady.pl and select your location. Use the city name, street name, and house number exactly as shown in the UI."
-    },
-    "urls": {}
-  },
   "zys_harmonogram_pl": {
     "docs_url": "https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/zys_harmonogram_pl.md",
     "howto": {},
@@ -3168,6 +3161,13 @@
   "warszawa19115_pl": {
     "docs_url": "https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/warszawa19115_pl.md",
     "howto": {},
+    "urls": {}
+  },
+  "wieliczka_kiedyodpady_pl": {
+    "docs_url": "https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/wieliczka_kiedyodpady_pl.md",
+    "howto": {
+      "en": "Open https://wieliczka.kiedyodpady.pl and select your location. Use the city name, street name, and house number exactly as shown in the UI."
+    },
     "urls": {}
   },
   "ekosystem_wroc_pl": {

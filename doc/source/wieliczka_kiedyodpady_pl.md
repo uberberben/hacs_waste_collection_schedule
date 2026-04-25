@@ -9,8 +9,8 @@ waste_collection_schedule:
   sources:
     - name: wieliczka_kiedyodpady_pl
       args:
-        city: Wieliczka
-        street: Asnyka
+        city: Wieliczka (miasto)
+        street: ul. Adama Asnyka
         number: pozostałe
 ```
 
@@ -32,8 +32,8 @@ waste_collection_schedule:
   sources:
     - name: wieliczka_kiedyodpady_pl
       args:
-        city: "Wieliczka"
-        street: "Asnyka"
+        city: "Wieliczka (miasto)"
+        street: "ul. Adama Asnyka"
         number: "pozostałe"
 ```
 
