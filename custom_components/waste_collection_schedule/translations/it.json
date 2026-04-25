@@ -2509,6 +2509,26 @@
         },
         "data_description": {}
       },
+      "args_willoughby_nsw_gov_au": {
+        "title": "Configurazione Sorgente",
+        "description": "Compila i campi per ottenere le informazioni sul tuo servizio di raccolta. {howto}Maggiori informazioni: {docs_url}.",
+        "data": {
+          "calendar_title": "Nome Calendario",
+          "address": "Indirizzo"
+        },
+        "data_description": {
+          "calendar_title": "Puoi cambiare il nome del calendario della raccolta dei rifiuti, altrimenti di default verra' utilizzato il nome del tuo fornitore di servizi."
+        }
+      },
+      "reconfigure_willoughby_nsw_gov_au": {
+        "title": "Riconfigurazione Sorgente",
+        "description": "Compila i campi per ottenere le informazioni sul tuo servizio di raccolta. {howto}Per maggiori informazioni: {docs_url}.",
+        "data": {
+          "calendar_title": "Nome Calendario",
+          "address": "Indirizzo"
+        },
+        "data_description": {}
+      },
       "args_wollondilly_nsw_gov_au": {
         "title": "Configurazione Sorgente",
         "description": "Compila i campi per ottenere le informazioni sul tuo servizio di raccolta. {howto}Maggiori informazioni: {docs_url}.",
@@ -3423,6 +3443,28 @@
         "description": "Compila i campi per ottenere le informazioni sul tuo servizio di raccolta. {howto}Per maggiori informazioni: {docs_url}.",
         "data": {
           "calendar_title": "Nome Calendario"
+        },
+        "data_description": {}
+      },
+      "args_saalfelden_at": {
+        "title": "Configurazione Sorgente",
+        "description": "Compila i campi per ottenere le informazioni sul tuo servizio di raccolta. {howto}Maggiori informazioni: {docs_url}.",
+        "data": {
+          "calendar_title": "Nome Calendario",
+          "hausnummer": "Hausnummer",
+          "strasse": "Strasse"
+        },
+        "data_description": {
+          "calendar_title": "Puoi cambiare il nome del calendario della raccolta dei rifiuti, altrimenti di default verra' utilizzato il nome del tuo fornitore di servizi."
+        }
+      },
+      "reconfigure_saalfelden_at": {
+        "title": "Riconfigurazione Sorgente",
+        "description": "Compila i campi per ottenere le informazioni sul tuo servizio di raccolta. {howto}Per maggiori informazioni: {docs_url}.",
+        "data": {
+          "calendar_title": "Nome Calendario",
+          "hausnummer": "Hausnummer",
+          "strasse": "Strasse"
         },
         "data_description": {}
       },
@@ -13003,6 +13045,28 @@
           "house_number": "Il numero civico del tuo indirizzo a Milano (ad esempio, '91')."
         }
       },
+      "args_asm_pv_it": {
+        "title": "Configurazione Sorgente",
+        "description": "Compila i campi per ottenere le informazioni sul tuo servizio di raccolta. {howto}Maggiori informazioni: {docs_url}.",
+        "data": {
+          "calendar_title": "Nome Calendario",
+          "municipality": "Comune",
+          "street": "Via"
+        },
+        "data_description": {
+          "calendar_title": "Puoi cambiare il nome del calendario della raccolta dei rifiuti, altrimenti di default verra' utilizzato il nome del tuo fornitore di servizi."
+        }
+      },
+      "reconfigure_asm_pv_it": {
+        "title": "Riconfigurazione Sorgente",
+        "description": "Compila i campi per ottenere le informazioni sul tuo servizio di raccolta. {howto}Per maggiori informazioni: {docs_url}.",
+        "data": {
+          "calendar_title": "Nome Calendario",
+          "municipality": "Comune",
+          "street": "Via"
+        },
+        "data_description": {}
+      },
       "args_cidiu_it": {
         "title": "Configurazione Sorgente",
         "description": "Compila i campi per ottenere le informazioni sul tuo servizio di raccolta. {howto}Maggiori informazioni: {docs_url}.",
@@ -13812,6 +13876,30 @@
           "calendar_title": "Nome Calendario",
           "house_number": "Civico",
           "postal_code": "Codice Postale CAP"
+        },
+        "data_description": {}
+      },
+      "args_saver_nl": {
+        "title": "Configurazione Sorgente",
+        "description": "Compila i campi per ottenere le informazioni sul tuo servizio di raccolta. {howto}Maggiori informazioni: {docs_url}.",
+        "data": {
+          "calendar_title": "Nome Calendario",
+          "huisnummer": "Huisnummer",
+          "postcode": "Codice Postale CAP",
+          "toevoeging": "Toevoeging"
+        },
+        "data_description": {
+          "calendar_title": "Puoi cambiare il nome del calendario della raccolta dei rifiuti, altrimenti di default verra' utilizzato il nome del tuo fornitore di servizi."
+        }
+      },
+      "reconfigure_saver_nl": {
+        "title": "Riconfigurazione Sorgente",
+        "description": "Compila i campi per ottenere le informazioni sul tuo servizio di raccolta. {howto}Per maggiori informazioni: {docs_url}.",
+        "data": {
+          "calendar_title": "Nome Calendario",
+          "huisnummer": "Huisnummer",
+          "postcode": "Codice Postale CAP",
+          "toevoeging": "Toevoeging"
         },
         "data_description": {}
       },
@@ -16198,6 +16286,48 @@
           "calendar_title": "Nome Calendario",
           "district": "Distretto",
           "municipality": "Municipality"
+        },
+        "data_description": {}
+      },
+      "args_ics_wuerenlos_ch": {
+        "title": "Configurazione Sorgente",
+        "description": "Compila i campi per ottenere le informazioni sul tuo servizio di raccolta. {howto}Maggiori informazioni: {docs_url}.",
+        "data": {
+          "calendar_title": "Nome Calendario",
+          "file": "Nome File",
+          "headers": "Headers",
+          "method": "Metodo",
+          "offset": "Offset",
+          "params": "Parametri",
+          "regex": "Regex",
+          "split_at": "Split At",
+          "title_template": "Title Template",
+          "url": "Url",
+          "verify_ssl": "Verifica SSL",
+          "version": "Versione",
+          "year_field": "Year Field"
+        },
+        "data_description": {
+          "calendar_title": "Puoi cambiare il nome del calendario della raccolta dei rifiuti, altrimenti di default verra' utilizzato il nome del tuo fornitore di servizi."
+        }
+      },
+      "reconfigure_ics_wuerenlos_ch": {
+        "title": "Riconfigurazione Sorgente",
+        "description": "Compila i campi per ottenere le informazioni sul tuo servizio di raccolta. {howto}Per maggiori informazioni: {docs_url}.",
+        "data": {
+          "calendar_title": "Nome Calendario",
+          "file": "Nome File",
+          "headers": "Headers",
+          "method": "Metodo",
+          "offset": "Offset",
+          "params": "Parametri",
+          "regex": "Regex",
+          "split_at": "Split At",
+          "title_template": "Title Template",
+          "url": "Url",
+          "verify_ssl": "Verifica SSL",
+          "version": "Versione",
+          "year_field": "Year Field"
         },
         "data_description": {}
       },

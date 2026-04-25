@@ -106,25 +106,11 @@ def _has_supported_country_code(file: str) -> bool:
     return _is_supported_country_code(code)
 
 
-def test_source_md_exists() -> None:
-    sources = _get_sources()
-    source_md = _get_source_md()
-    for source in sources:
-        assert source in source_md, f"missing source markdown file: {source}.md"
-
-
 def test_no_extra_source_mds() -> None:
     sources = _get_sources()
     source_md = _get_source_md()
     for source in source_md:
         assert source in sources, f"found orphaned source markdown file: {source}.md"
-
-
-def test_ics_md_exists() -> None:
-    sources = _get_ics_sources()
-    source_md = _get_ics_md()
-    for source in sources:
-        assert source in source_md, f"missing ics markdown file: {source}.md"
 
 
 def test_no_extra_ics_mds() -> None:

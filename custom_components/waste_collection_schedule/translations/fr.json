@@ -2509,6 +2509,26 @@
         },
         "data_description": {}
       },
+      "args_willoughby_nsw_gov_au": {
+        "title": "Configurer la Source",
+        "description": "Configurez votre fournisseur de services. {howto}Plus de détails : {docs_url}.",
+        "data": {
+          "calendar_title": "Titre du Calendrier",
+          "address": "Adresse"
+        },
+        "data_description": {
+          "calendar_title": "Un nom plus lisible ou convivial pour le calendrier des déchets. Si aucun n'est fourni, le nom renvoyé par la source sera utilisé."
+        }
+      },
+      "reconfigure_willoughby_nsw_gov_au": {
+        "title": "Reconfigurer la Source",
+        "description": "Configurez votre fournisseur de services. {howto}Plus de détails : {docs_url}.",
+        "data": {
+          "calendar_title": "Titre du Calendrier",
+          "address": "Adresse"
+        },
+        "data_description": {}
+      },
       "args_wollondilly_nsw_gov_au": {
         "title": "Configurer la Source",
         "description": "Configurez votre fournisseur de services. {howto}Plus de détails : {docs_url}.",
@@ -3414,6 +3434,28 @@
         "description": "Configurez votre fournisseur de services. {howto}Plus de détails : {docs_url}.",
         "data": {
           "calendar_title": "Titre du Calendrier"
+        },
+        "data_description": {}
+      },
+      "args_saalfelden_at": {
+        "title": "Configurer la Source",
+        "description": "Configurez votre fournisseur de services. {howto}Plus de détails : {docs_url}.",
+        "data": {
+          "calendar_title": "Titre du Calendrier",
+          "hausnummer": "Numéro civique",
+          "strasse": "Rue"
+        },
+        "data_description": {
+          "calendar_title": "Un nom plus lisible ou convivial pour le calendrier des déchets. Si aucun n'est fourni, le nom renvoyé par la source sera utilisé."
+        }
+      },
+      "reconfigure_saalfelden_at": {
+        "title": "Reconfigurer la Source",
+        "description": "Configurez votre fournisseur de services. {howto}Plus de détails : {docs_url}.",
+        "data": {
+          "calendar_title": "Titre du Calendrier",
+          "hausnummer": "Numéro civique",
+          "strasse": "Rue"
         },
         "data_description": {}
       },
@@ -13004,6 +13046,28 @@
         },
         "data_description": {}
       },
+      "args_asm_pv_it": {
+        "title": "Configurer la Source",
+        "description": "Configurez votre fournisseur de services. {howto}Plus de détails : {docs_url}.",
+        "data": {
+          "calendar_title": "Titre du Calendrier",
+          "municipality": "Municipalité",
+          "street": "Rue"
+        },
+        "data_description": {
+          "calendar_title": "Un nom plus lisible ou convivial pour le calendrier des déchets. Si aucun n'est fourni, le nom renvoyé par la source sera utilisé."
+        }
+      },
+      "reconfigure_asm_pv_it": {
+        "title": "Reconfigurer la Source",
+        "description": "Configurez votre fournisseur de services. {howto}Plus de détails : {docs_url}.",
+        "data": {
+          "calendar_title": "Titre du Calendrier",
+          "municipality": "Municipalité",
+          "street": "Rue"
+        },
+        "data_description": {}
+      },
       "args_cidiu_it": {
         "title": "Configurer la Source",
         "description": "Configurez votre fournisseur de services. {howto}Plus de détails : {docs_url}.",
@@ -13813,6 +13877,30 @@
           "calendar_title": "Titre du Calendrier",
           "house_number": "Numéro civique",
           "postal_code": "Code postal"
+        },
+        "data_description": {}
+      },
+      "args_saver_nl": {
+        "title": "Configurer la Source",
+        "description": "Configurez votre fournisseur de services. {howto}Plus de détails : {docs_url}.",
+        "data": {
+          "calendar_title": "Titre du Calendrier",
+          "huisnummer": "Huisnummer",
+          "postcode": "Code postal",
+          "toevoeging": "Toevoeging"
+        },
+        "data_description": {
+          "calendar_title": "Un nom plus lisible ou convivial pour le calendrier des déchets. Si aucun n'est fourni, le nom renvoyé par la source sera utilisé."
+        }
+      },
+      "reconfigure_saver_nl": {
+        "title": "Reconfigurer la Source",
+        "description": "Configurez votre fournisseur de services. {howto}Plus de détails : {docs_url}.",
+        "data": {
+          "calendar_title": "Titre du Calendrier",
+          "huisnummer": "Huisnummer",
+          "postcode": "Code postal",
+          "toevoeging": "Toevoeging"
         },
         "data_description": {}
       },
@@ -16199,6 +16287,48 @@
           "calendar_title": "Titre du Calendrier",
           "district": "District",
           "municipality": "Municipalité"
+        },
+        "data_description": {}
+      },
+      "args_ics_wuerenlos_ch": {
+        "title": "Configurer la Source",
+        "description": "Configurez votre fournisseur de services. {howto}Plus de détails : {docs_url}.",
+        "data": {
+          "calendar_title": "Titre du Calendrier",
+          "file": "File",
+          "headers": "Headers",
+          "method": "Méthode",
+          "offset": "Offset",
+          "params": "Paramètres",
+          "regex": "Regex",
+          "split_at": "Split At",
+          "title_template": "Title Template",
+          "url": "URL",
+          "verify_ssl": "Verify Ssl",
+          "version": "Version",
+          "year_field": "Year Field"
+        },
+        "data_description": {
+          "calendar_title": "Un nom plus lisible ou convivial pour le calendrier des déchets. Si aucun n'est fourni, le nom renvoyé par la source sera utilisé."
+        }
+      },
+      "reconfigure_ics_wuerenlos_ch": {
+        "title": "Reconfigurer la Source",
+        "description": "Configurez votre fournisseur de services. {howto}Plus de détails : {docs_url}.",
+        "data": {
+          "calendar_title": "Titre du Calendrier",
+          "file": "File",
+          "headers": "Headers",
+          "method": "Méthode",
+          "offset": "Offset",
+          "params": "Paramètres",
+          "regex": "Regex",
+          "split_at": "Split At",
+          "title_template": "Title Template",
+          "url": "URL",
+          "verify_ssl": "Verify Ssl",
+          "version": "Version",
+          "year_field": "Year Field"
         },
         "data_description": {}
       },

@@ -219,6 +219,7 @@ If your service provider is not listed, feel free to open a [source request issu
 - [Wellington Shire Council](/doc/source/impactapps_com_au.md) / wellington.vic.gov.au
 - [Whitehorse City Counfil](/doc/source/whitehorse_vic_gov_au.md) / whitehorse.vic.gov.au
 - [Whittlesea City Council](/doc/source/whittlesea_vic_gov_au.md) / whittlesea.vic.gov.au/My-Neighbourhood
+- [Willoughby City Council](/doc/source/willoughby_nsw_gov_au.md) / willoughby.nsw.gov.au
 - [Wollondilly Shire Council](/doc/source/wollondilly_nsw_gov_au.md) / wollondilly.nsw.gov.au
 - [Wollongong City Council](/doc/source/impactapps_com_au.md) / wollongong.vic.gov.au
 - [Wollongong City Council](/doc/source/wollongongwaste_com_au.md) / wollongongwaste.com
@@ -592,7 +593,7 @@ If your service provider is not listed, feel free to open a [source request issu
 - [Rudersdorf](/doc/source/citiesapps_com.md) / rudersdorf.at
 - [Rust](/doc/source/citiesapps_com.md) / freistadt-rust.at
 - [Röthis](/doc/source/citiesapps_com.md) / roethis.at
-- [Saalfelden am Steinernen Meer](/doc/source/citiesapps_com.md) / stadtmarketing-saalfelden.at/de
+- [Saalfelden am Steinernen Meer](/doc/source/saalfelden_at.md) / saalfelden.at
 - [Sachsenburg](/doc/ics/muellapp_com.md) / muellapp.com
 - [Sankt Georgen an der Stiefing](/doc/source/citiesapps_com.md) / st-georgen-stiefing.gv.at
 - [Sankt Gilgen](/doc/source/citiesapps_com.md) / gemgilgen.at
@@ -974,8 +975,6 @@ If your service provider is not listed, feel free to open a [source request issu
 - [Abfallwirtschaft Landkreis Nordhausen](/doc/ics/abfallportal_nordhausen_de.md) / abfall-nordhausen.de
 - [Abfallwirtschaft Neckar-Odenwald-Kreis](/doc/source/awn_de.md) / awn-online.de
 - [Abfallwirtschaft Nürnberger Land](/doc/source/nuernberger_land_de.md) / nuernberger-land.de
-- [Abfallwirtschaft Ortenaukreis](/doc/ics/abfall_io_ics.md) / abfallwirtschaft-ortenaukreis.de
-- [Abfallwirtschaft Ortenaukreis](/doc/source/abfall_io.md) / abfallwirtschaft-ortenaukreis.de
 - [Abfallwirtschaft Pforzheim](/doc/source/abfallwirtschaft_pforzheim_de.md) / abfallwirtschaft-pforzheim.de
 - [Abfallwirtschaft Potsdam-Mittelmark (APM)](/doc/ics/apm_de.md) / apm-niemegk.de
 - [Abfallwirtschaft Rems-Murr (AWRM) - AWIDO Version](/doc/source/awido_de.md) / abfallwirtschaft-rems-murr.de
@@ -1657,7 +1656,7 @@ If your service provider is not listed, feel free to open a [source request issu
 - [Weimarer Land](/doc/source/muellabfuhr_de.md) / portal.muellabfuhr-deutschland.de
 - [Wenden](/doc/ics/abfuhrtermine_info.md) / gemeinde-wenden.de
 - [Werdohl](/doc/source/lobbe_app.md) / lobbe.app
-- [Wermelskirchen (Service Down)](/doc/source/wermelskirchen_de.md) / wermelskirchen.de
+- [Wermelskirchen](/doc/source/wermelskirchen_de.md) / bavweb.de/Bergischer-Abfallwirtschaftsverband/Abfuhrkalender-Service/Wermelskirchen
 - [Wermertshausen](/doc/source/123abfallkalender_de.md) / 123abfallkalender.de/abfallkalender/rpecasvg-ebsdorfergrund/12-wermertshausen
 - [Westerholt (MyMuell App)](/doc/source/jumomind_de.md) / mymuell.de
 - [Westerwaldkreis](/doc/source/app_abfallplus_de.md) / Abfall+ App: wabapp
@@ -1742,6 +1741,7 @@ If your service provider is not listed, feel free to open a [source request issu
 - [Artena](/doc/source/junker_app.md) / junker.app
 - [Aset S.p.A](/doc/source/junker_app.md) / junker.app
 - [ASIA Azienda Speciale per l'Igiene Ambientale](/doc/source/junker_app.md) / junker.app
+- [ASM Pavia](/doc/source/asm_pv_it.md) / asm.pv.it
 - [Asm Terni](/doc/source/junker_app.md) / junker.app
 - [Assago - San Germano - Gruppo Iren](/doc/source/junker_app.md) / junker.app
 - [Assisi - ECE Srl](/doc/source/junker_app.md) / junker.app
@@ -2169,6 +2169,7 @@ If your service provider is not listed, feel free to open a [source request issu
 - [Rd4](/doc/source/rd4_nl.md) / rd4.nl
 - [Reinigingsdienst Midden Nederland](/doc/source/burgerportaal_nl.md) / rmn.nl
 - [Reinis](/doc/source/hvcgroep_nl.md) / reinis.nl
+- [Saver](/doc/source/saver_nl.md) / saver.nl
 - [Spaarnelanden](/doc/source/hvcgroep_nl.md) / spaarnelanden.nl
 - [Twente Milieu](/doc/source/ximmio_nl.md) / twentemilieu.nl
 - [Waardlanden](/doc/source/ximmio_nl.md) / waardlanden.nl
@@ -2463,6 +2464,7 @@ If your service provider is not listed, feel free to open a [source request issu
 - [Gais](/doc/source/a_region_ch.md) / a-region.ch
 - [Gaiserwald](/doc/source/a_region_ch.md) / a-region.ch
 - [Gasel](/doc/source/koeniz_ch.md) / koeniz.citymobile.ch
+- [Gemeinde Würenlos](/doc/ics/wuerenlos_ch.md) / wuerenlos.ch
 - [Goldach](/doc/source/a_region_ch.md) / a-region.ch
 - [Gossau ZH](/doc/ics/gossau_zh_ch.md) / gossau-zh.ch
 - [Grenchen](/doc/source/localcities_ch.md) / grenchen.ch

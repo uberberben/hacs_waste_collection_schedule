@@ -160,9 +160,14 @@ class Source:
             ics_file = re.sub(r"\<br.*|\<b.*", "\\r", ics_file)
             # _LOGGER.warning("Html tags removed from ics file: " + ', '.join(html_warnings))
 
-        dates = self._ics.convert(ics_file)
-
         entries = []
-        for d in dates:
-            entries.append(Collection(d[0], d[1]))
+        for ev in self._ics.convert_events(ics_file):
+            entries.append(
+                Collection(
+                    ev.date,
+                    ev.title,
+                    location=ev.location,
+                    description=ev.description,
+                )
+            )
         return entries

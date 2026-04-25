@@ -76,7 +76,6 @@ class Source:
         self._city = city
         self._street = street.strip() if isinstance(street, str) else None
         self._number = number.strip() if isinstance(number, str) else None
-
         self._session = requests.Session()
         self._session.headers.update(
             {

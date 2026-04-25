@@ -2623,6 +2623,29 @@
         },
         "data_description": {}
       },
+      "args_willoughby_nsw_gov_au": {
+        "title": "Configure Source",
+        "description": "Configure your service provider. {howto}More details: {docs_url}.",
+        "data": {
+          "calendar_title": "Calendar Title",
+          "address": "Street address"
+        },
+        "data_description": {
+          "calendar_title": "A more readable, or user-friendly, name for the waste calendar. If nothing is provided, the name returned by the source will be used.",
+          "address": "Street address, for example: 18 Crabbes Avenue, North Willoughby, NSW 2068"
+        }
+      },
+      "reconfigure_willoughby_nsw_gov_au": {
+        "title": "Reconfigure Source",
+        "description": "Configure your service provider. {howto}More details: {docs_url}.",
+        "data": {
+          "calendar_title": "Calendar Title",
+          "address": "Street address"
+        },
+        "data_description": {
+          "address": "Street address, for example: 18 Crabbes Avenue, North Willoughby, NSW 2068"
+        }
+      },
       "args_wollondilly_nsw_gov_au": {
         "title": "Configure Source",
         "description": "Configure your service provider. {howto}More details: {docs_url}.",
@@ -3586,6 +3609,33 @@
           "calendar_title": "Calendar Title"
         },
         "data_description": {}
+      },
+      "args_saalfelden_at": {
+        "title": "Configure Source",
+        "description": "Configure your service provider. {howto}More details: {docs_url}.",
+        "data": {
+          "calendar_title": "Calendar Title",
+          "hausnummer": "House number",
+          "strasse": "Street"
+        },
+        "data_description": {
+          "calendar_title": "A more readable, or user-friendly, name for the waste calendar. If nothing is provided, the name returned by the source will be used.",
+          "hausnummer": "House number as listed in the Saalfelden waste calendar.",
+          "strasse": "Street name as listed in the Saalfelden waste calendar."
+        }
+      },
+      "reconfigure_saalfelden_at": {
+        "title": "Reconfigure Source",
+        "description": "Configure your service provider. {howto}More details: {docs_url}.",
+        "data": {
+          "calendar_title": "Calendar Title",
+          "hausnummer": "House number",
+          "strasse": "Street"
+        },
+        "data_description": {
+          "hausnummer": "House number as listed in the Saalfelden waste calendar.",
+          "strasse": "Street name as listed in the Saalfelden waste calendar."
+        }
       },
       "args_klosterneuburg_at": {
         "title": "Configure Source",
@@ -13318,6 +13368,33 @@
           "house_number": "The house number of your address in Milan (e.g., '91')."
         }
       },
+      "args_asm_pv_it": {
+        "title": "Configure Source",
+        "description": "Configure your service provider. {howto}More details: {docs_url}.",
+        "data": {
+          "calendar_title": "Calendar Title",
+          "municipality": "Municipality",
+          "street": "Street"
+        },
+        "data_description": {
+          "calendar_title": "A more readable, or user-friendly, name for the waste calendar. If nothing is provided, the name returned by the source will be used.",
+          "municipality": "Municipality (comune) served by ASM Pavia, e.g. 'Pavia'.",
+          "street": "Street name as listed on the ASM porta-a-porta lookup. For municipalities with a single zone, use 'Tutte le vie'."
+        }
+      },
+      "reconfigure_asm_pv_it": {
+        "title": "Reconfigure Source",
+        "description": "Configure your service provider. {howto}More details: {docs_url}.",
+        "data": {
+          "calendar_title": "Calendar Title",
+          "municipality": "Municipality",
+          "street": "Street"
+        },
+        "data_description": {
+          "municipality": "Municipality (comune) served by ASM Pavia, e.g. 'Pavia'.",
+          "street": "Street name as listed on the ASM porta-a-porta lookup. For municipalities with a single zone, use 'Tutte le vie'."
+        }
+      },
       "args_cidiu_it": {
         "title": "Configure Source",
         "description": "Configure your service provider. {howto}More details: {docs_url}.",
@@ -14132,6 +14209,37 @@
           "postal_code": "Postal Code"
         },
         "data_description": {}
+      },
+      "args_saver_nl": {
+        "title": "Configure Source",
+        "description": "Configure your service provider. {howto}More details: {docs_url}.",
+        "data": {
+          "calendar_title": "Calendar Title",
+          "huisnummer": "House number",
+          "postcode": "Postal code",
+          "toevoeging": "Addition"
+        },
+        "data_description": {
+          "calendar_title": "A more readable, or user-friendly, name for the waste calendar. If nothing is provided, the name returned by the source will be used.",
+          "huisnummer": "House number",
+          "postcode": "Dutch postal code (4 digits + 2 letters), e.g. 4702AA",
+          "toevoeging": "House letter or addition (only required when more than one address shares the postcode/huisnummer)"
+        }
+      },
+      "reconfigure_saver_nl": {
+        "title": "Reconfigure Source",
+        "description": "Configure your service provider. {howto}More details: {docs_url}.",
+        "data": {
+          "calendar_title": "Calendar Title",
+          "huisnummer": "House number",
+          "postcode": "Postal code",
+          "toevoeging": "Addition"
+        },
+        "data_description": {
+          "huisnummer": "House number",
+          "postcode": "Dutch postal code (4 digits + 2 letters), e.g. 4702AA",
+          "toevoeging": "House letter or addition (only required when more than one address shares the postcode/huisnummer)"
+        }
       },
       "args_ics_offalkalinder_nl": {
         "title": "Configure Source",
@@ -16614,6 +16722,48 @@
           "calendar_title": "Calendar Title",
           "district": "District",
           "municipality": "Municipality"
+        },
+        "data_description": {}
+      },
+      "args_ics_wuerenlos_ch": {
+        "title": "Configure Source",
+        "description": "Configure your service provider. {howto}More details: {docs_url}.",
+        "data": {
+          "calendar_title": "Calendar Title",
+          "file": "File",
+          "headers": "Headers",
+          "method": "Method",
+          "offset": "Offset",
+          "params": "Params",
+          "regex": "Regex",
+          "split_at": "Split At",
+          "title_template": "Title Template",
+          "url": "Url",
+          "verify_ssl": "Verify Ssl",
+          "version": "(Deprecated) Version, has no effect anymore",
+          "year_field": "Year Field"
+        },
+        "data_description": {
+          "calendar_title": "A more readable, or user-friendly, name for the waste calendar. If nothing is provided, the name returned by the source will be used."
+        }
+      },
+      "reconfigure_ics_wuerenlos_ch": {
+        "title": "Reconfigure Source",
+        "description": "Configure your service provider. {howto}More details: {docs_url}.",
+        "data": {
+          "calendar_title": "Calendar Title",
+          "file": "File",
+          "headers": "Headers",
+          "method": "Method",
+          "offset": "Offset",
+          "params": "Params",
+          "regex": "Regex",
+          "split_at": "Split At",
+          "title_template": "Title Template",
+          "url": "Url",
+          "verify_ssl": "Verify Ssl",
+          "version": "(Deprecated) Version, has no effect anymore",
+          "year_field": "Year Field"
         },
         "data_description": {}
       },

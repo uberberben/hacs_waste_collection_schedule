@@ -618,6 +618,13 @@
     "howto": {},
     "urls": {}
   },
+  "willoughby_nsw_gov_au": {
+    "docs_url": "https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/willoughby_nsw_gov_au.md",
+    "howto": {
+      "en": "Visit the Willoughby City Council waste service dates page, search for your address, and use the address text as shown by the lookup."
+    },
+    "urls": {}
+  },
   "wollondilly_nsw_gov_au": {
     "docs_url": "https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/wollondilly_nsw_gov_au.md",
     "howto": {},
@@ -816,6 +823,14 @@
   "rohrbach_lafnitz_at": {
     "docs_url": "https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/rohrbach_lafnitz_at.md",
     "howto": {},
+    "urls": {}
+  },
+  "saalfelden_at": {
+    "docs_url": "https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/saalfelden_at.md",
+    "howto": {
+      "de": "Öffnen Sie https://www.saalfelden.at/Buergerservice/Abfallkalender, wählen Sie Ihre Straße und Hausnummer aus, und verwenden Sie dieselben Werte hier.",
+      "en": "Visit https://www.saalfelden.at/Buergerservice/Abfallkalender, pick your street and house number from the dropdowns, and use the same values here."
+    },
     "urls": {}
   },
   "klosterneuburg_at": {
@@ -2735,6 +2750,13 @@
     },
     "urls": {}
   },
+  "asm_pv_it": {
+    "docs_url": "https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/asm_pv_it.md",
+    "howto": {
+      "en": "Open https://www.asm.pv.it/raccolta-differenziata/porta-a-porta-pavia/ and pick your municipality and street from the search. Use the same values here. For small municipalities served by a single zone, use 'Tutte le vie' as the street."
+    },
+    "urls": {}
+  },
   "cidiu_it": {
     "docs_url": "https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/cidiu_it.md",
     "howto": {},
@@ -2908,6 +2930,13 @@
   "rd4_nl": {
     "docs_url": "https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/rd4_nl.md",
     "howto": {},
+    "urls": {}
+  },
+  "saver_nl": {
+    "docs_url": "https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/saver_nl.md",
+    "howto": {
+      "en": "Use the same postcode and house number you would enter at https://saver.nl/afvalkalender. If your address has a letter or addition (e.g. '5a'), provide the letter/addition in the 'toevoeging' argument."
+    },
     "urls": {}
   },
   "ics_offalkalinder_nl": {
@@ -3476,6 +3505,13 @@
   "koeniz_ch": {
     "docs_url": "https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/source/koeniz_ch.md",
     "howto": {},
+    "urls": {}
+  },
+  "ics_wuerenlos_ch": {
+    "docs_url": "https://github.com/mampfes/hacs_waste_collection_schedule/blob/master/doc/ics/wuerenlos_ch.md",
+    "howto": {
+      "en": "Würenlos publishes a public iCalendar feed at\n`https://www.wuerenlos.ch/fileadmin/00_website/entsorgungskalender/Entsorgungskalender_Wuerenlos_{%Y}.ics`.\nUse this URL as the `url` parameter — `{%Y}` is replaced with the\ncurrent year automatically.\n"
+    },
     "urls": {}
   },
   "ics_gossau_zh_ch": {

@@ -1208,6 +1208,12 @@
       "id": "whittlesea_vic_gov_au"
     },
     {
+      "title": "Willoughby City Council",
+      "module": "willoughby_nsw_gov_au",
+      "default_params": {},
+      "id": "willoughby_nsw_gov_au"
+    },
+    {
       "title": "Wollondilly Shire Council",
       "module": "wollondilly_nsw_gov_au",
       "default_params": {},
@@ -3459,9 +3465,9 @@
     },
     {
       "title": "Saalfelden am Steinernen Meer",
-      "module": "citiesapps_com",
+      "module": "saalfelden_at",
       "default_params": {},
-      "id": "citiesapps_com"
+      "id": "saalfelden_at"
     },
     {
       "title": "Sachsenburg",
@@ -5806,20 +5812,6 @@
       "module": "nuernberger_land_de",
       "default_params": {},
       "id": "nuernberger_land_de"
-    },
-    {
-      "title": "Abfallwirtschaft Ortenaukreis",
-      "module": "ics",
-      "default_params": {},
-      "id": "ics_abfall_io_ics"
-    },
-    {
-      "title": "Abfallwirtschaft Ortenaukreis",
-      "module": "abfall_io",
-      "default_params": {
-        "key": "bb296b78763112266a391990f803f032"
-      },
-      "id": "abfall_io"
     },
     {
       "title": "Abfallwirtschaft Pforzheim",
@@ -10940,7 +10932,7 @@
       "id": "lobbe_app"
     },
     {
-      "title": "Wermelskirchen (Service Down)",
+      "title": "Wermelskirchen",
       "module": "wermelskirchen_de",
       "default_params": {},
       "id": "wermelskirchen_de"
@@ -11418,6 +11410,12 @@
       "module": "junker_app",
       "default_params": {},
       "id": "junker_app"
+    },
+    {
+      "title": "ASM Pavia",
+      "module": "asm_pv_it",
+      "default_params": {},
+      "id": "asm_pv_it"
     },
     {
       "title": "Asm Terni",
@@ -14062,6 +14060,12 @@
       "id": "hvcgroep_nl"
     },
     {
+      "title": "Saver",
+      "module": "saver_nl",
+      "default_params": {},
+      "id": "saver_nl"
+    },
+    {
       "title": "Spaarnelanden",
       "module": "hvcgroep_nl",
       "default_params": {
@@ -15940,6 +15944,12 @@
         "municipality": "Gasel"
       },
       "id": "koeniz_ch"
+    },
+    {
+      "title": "Gemeinde W\u00fcrenlos",
+      "module": "ics",
+      "default_params": {},
+      "id": "ics_wuerenlos_ch"
     },
     {
       "title": "Goldach",

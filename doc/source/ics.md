@@ -230,7 +230,6 @@ This source has been successfully tested with the following service providers:
 - [Abfallwirtschaft Landkreis Göppingen](/doc/ics/abfall_io_ics.md) / awb-gp.de
 - [Abfallwirtschaft Landkreis Haßberge](/doc/ics/awhas_de.md) / awhas.de
 - [Abfallwirtschaft Landkreis Nordhausen](/doc/ics/abfallportal_nordhausen_de.md) / abfall-nordhausen.de
-- [Abfallwirtschaft Ortenaukreis](/doc/ics/abfall_io_ics.md) / abfallwirtschaft-ortenaukreis.de
 - [Abfallwirtschaft Potsdam-Mittelmark (APM)](/doc/ics/apm_de.md) / apm-niemegk.de
 - [Abfallwirtschaft Rems-Murr (AWRM) - ICS Version](/doc/ics/abfallwirtschaft_rems_murr_de.md) / abfallwirtschaft-rems-murr.de
 - [Abfallwirtschaft Sonneberg](/doc/ics/abfallwirtschaft_sonneberg_de.md) / abfallwirtschaft-sonneberg.de
@@ -422,6 +421,7 @@ This source has been successfully tested with the following service providers:
 ### Switzerland
 
 - [Canton of Zürich](/doc/ics/openerz_metaodi_ch.md) / openerz.metaodi.ch
+- [Gemeinde Würenlos](/doc/ics/wuerenlos_ch.md) / wuerenlos.ch
 - [Gossau ZH](/doc/ics/gossau_zh_ch.md) / gossau-zh.ch
 - [mopage.ch](/doc/ics/mopage_ch.md) / mopage.ch
 - [Münsingen BE, Switzerland](/doc/ics/muensingen_ch.md) / muensingen.ch
@@ -609,7 +609,21 @@ See also [example](#custom-headers) below.
 **title_template**  
 *(str) (optional, default: `{{date.summary}}`)*
 
-template for the event title. `date` is the event object depending on the selected ICS file parser version.
+Template for the event title. `date` is the parsed VEVENT object.
+You can also use fields such as `{{date.location}}` and `{{date.description}}` when those values are present.
+
+**LOCATION and DESCRIPTION support**
+
+If an ICS event contains `LOCATION` and/or `DESCRIPTION`, the values are stored as optional `location` / `description` fields in collection entries.
+
+- In sensor `value_template`, `value.location` and `value.description` are available.
+- In `details_format: generic`, entries in `upcoming` can include `location` and `description`.
+
+Fallback behavior remains unchanged:
+
+- `LOCATION` and `DESCRIPTION` are optional; either field may be missing.
+- If a field is missing (or empty), the corresponding value is `None`, so existing templates keep working.
+- If multiple events are grouped on the same day, non-empty values can be combined into comma-separated strings.
 
 ## Examples and Notes
 
