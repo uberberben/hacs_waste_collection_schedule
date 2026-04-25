@@ -10,20 +10,20 @@ waste_collection_schedule:
     - name: wieliczka_kiedyodpady_pl
       args:
         city: Wieliczka (miasto)
-        street: ul. Adama Asnyka
-        number: pozostałe
+        street: ul. Adama Asnyka  # optional for some cities
+        number: pozostałe         # optional for some cities
 ```
 
 ### Configuration Variables
 
 **number**  
-*(String) (required)* House number/address entry from the selected street.
+*(String) (optional)* House number/address entry from the selected street.
 
 **city**  
 *(String) (required)* City name.
 
 **street**  
-*(String) (required)* Street name.
+*(String) (optional)* Street name.
 
 ## Example
 
